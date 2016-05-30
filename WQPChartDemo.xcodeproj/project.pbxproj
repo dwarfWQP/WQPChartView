@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E7F5FAC1CFBF270000A8FEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F5FAB1CFBF270000A8FEE /* main.m */; };
+		7E7F5FAF1CFBF270000A8FEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F5FAE1CFBF270000A8FEE /* AppDelegate.m */; };
+		7E7F5FB21CFBF270000A8FEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F5FB11CFBF270000A8FEE /* ViewController.m */; };
+		7E7F5FB51CFBF270000A8FEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7F5FB31CFBF270000A8FEE /* Main.storyboard */; };
+		7E7F5FB71CFBF270000A8FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E7F5FB61CFBF270000A8FEE /* Assets.xcassets */; };
+		7E7F5FBA1CFBF270000A8FEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7F5FB81CFBF270000A8FEE /* LaunchScreen.storyboard */; };
+		7E7F5FC51CFBF270000A8FEE /* WQPChartDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F5FC41CFBF270000A8FEE /* WQPChartDemoTests.m */; };
+		7E7F5FD01CFBF270000A8FEE /* WQPChartDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F5FCF1CFBF270000A8FEE /* WQPChartDemoUITests.m */; };
+		7E7F5FE81CFBF2E2000A8FEE /* UIBezierPath+curved.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F5FDF1CFBF2E2000A8FEE /* UIBezierPath+curved.m */; };
+		7E7F5FE91CFBF2E2000A8FEE /* WQPChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F5FE11CFBF2E2000A8FEE /* WQPChart.m */; };
+		7E7F5FEA1CFBF2E2000A8FEE /* WQPChartAll.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F5FE31CFBF2E2000A8FEE /* WQPChartAll.m */; };
+		7E7F5FEB1CFBF2E2000A8FEE /* WQPChartBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F5FE51CFBF2E2000A8FEE /* WQPChartBar.m */; };
+		7E7F5FEC1CFBF2E2000A8FEE /* WQPChartLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F5FE71CFBF2E2000A8FEE /* WQPChartLine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E7F5FC11CFBF270000A8FEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7F5F9F1CFBF270000A8FEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E7F5FA61CFBF270000A8FEE;
+			remoteInfo = WQPChartDemo;
+		};
+		7E7F5FCC1CFBF270000A8FEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7F5F9F1CFBF270000A8FEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E7F5FA61CFBF270000A8FEE;
+			remoteInfo = WQPChartDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E7F5FA71CFBF270000A8FEE /* WQPChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WQPChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7F5FAB1CFBF270000A8FEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E7F5FAD1CFBF270000A8FEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E7F5FAE1CFBF270000A8FEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E7F5FB01CFBF270000A8FEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E7F5FB11CFBF270000A8FEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E7F5FB41CFBF270000A8FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E7F5FB61CFBF270000A8FEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E7F5FB91CFBF270000A8FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E7F5FBB1CFBF270000A8FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7F5FC01CFBF270000A8FEE /* WQPChartDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WQPChartDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7F5FC41CFBF270000A8FEE /* WQPChartDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQPChartDemoTests.m; sourceTree = "<group>"; };
+		7E7F5FC61CFBF270000A8FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7F5FCB1CFBF270000A8FEE /* WQPChartDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WQPChartDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7F5FCF1CFBF270000A8FEE /* WQPChartDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQPChartDemoUITests.m; sourceTree = "<group>"; };
+		7E7F5FD11CFBF270000A8FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7F5FDE1CFBF2E2000A8FEE /* UIBezierPath+curved.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+curved.h"; sourceTree = "<group>"; };
+		7E7F5FDF1CFBF2E2000A8FEE /* UIBezierPath+curved.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+curved.m"; sourceTree = "<group>"; };
+		7E7F5FE01CFBF2E2000A8FEE /* WQPChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQPChart.h; sourceTree = "<group>"; };
+		7E7F5FE11CFBF2E2000A8FEE /* WQPChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQPChart.m; sourceTree = "<group>"; };
+		7E7F5FE21CFBF2E2000A8FEE /* WQPChartAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQPChartAll.h; sourceTree = "<group>"; };
+		7E7F5FE31CFBF2E2000A8FEE /* WQPChartAll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQPChartAll.m; sourceTree = "<group>"; };
+		7E7F5FE41CFBF2E2000A8FEE /* WQPChartBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQPChartBar.h; sourceTree = "<group>"; };
+		7E7F5FE51CFBF2E2000A8FEE /* WQPChartBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQPChartBar.m; sourceTree = "<group>"; };
+		7E7F5FE61CFBF2E2000A8FEE /* WQPChartLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQPChartLine.h; sourceTree = "<group>"; };
+		7E7F5FE71CFBF2E2000A8FEE /* WQPChartLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQPChartLine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E7F5FA41CFBF270000A8FEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7F5FBD1CFBF270000A8FEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7F5FC81CFBF270000A8FEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E7F5F9E1CFBF270000A8FEE = {
+			isa = PBXGroup;
+			children = (
+				7E7F5FA91CFBF270000A8FEE /* WQPChartDemo */,
+				7E7F5FC31CFBF270000A8FEE /* WQPChartDemoTests */,
+				7E7F5FCE1CFBF270000A8FEE /* WQPChartDemoUITests */,
+				7E7F5FA81CFBF270000A8FEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E7F5FA81CFBF270000A8FEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E7F5FA71CFBF270000A8FEE /* WQPChartDemo.app */,
+				7E7F5FC01CFBF270000A8FEE /* WQPChartDemoTests.xctest */,
+				7E7F5FCB1CFBF270000A8FEE /* WQPChartDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E7F5FA91CFBF270000A8FEE /* WQPChartDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7E7F5FDD1CFBF2BD000A8FEE /* WQPChartView */,
+				7E7F5FAD1CFBF270000A8FEE /* AppDelegate.h */,
+				7E7F5FAE1CFBF270000A8FEE /* AppDelegate.m */,
+				7E7F5FB01CFBF270000A8FEE /* ViewController.h */,
+				7E7F5FB11CFBF270000A8FEE /* ViewController.m */,
+				7E7F5FB31CFBF270000A8FEE /* Main.storyboard */,
+				7E7F5FB61CFBF270000A8FEE /* Assets.xcassets */,
+				7E7F5FB81CFBF270000A8FEE /* LaunchScreen.storyboard */,
+				7E7F5FBB1CFBF270000A8FEE /* Info.plist */,
+				7E7F5FAA1CFBF270000A8FEE /* Supporting Files */,
+			);
+			path = WQPChartDemo;
+			sourceTree = "<group>";
+		};
+		7E7F5FAA1CFBF270000A8FEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E7F5FAB1CFBF270000A8FEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E7F5FC31CFBF270000A8FEE /* WQPChartDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E7F5FC41CFBF270000A8FEE /* WQPChartDemoTests.m */,
+				7E7F5FC61CFBF270000A8FEE /* Info.plist */,
+			);
+			path = WQPChartDemoTests;
+			sourceTree = "<group>";
+		};
+		7E7F5FCE1CFBF270000A8FEE /* WQPChartDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E7F5FCF1CFBF270000A8FEE /* WQPChartDemoUITests.m */,
+				7E7F5FD11CFBF270000A8FEE /* Info.plist */,
+			);
+			path = WQPChartDemoUITests;
+			sourceTree = "<group>";
+		};
+		7E7F5FDD1CFBF2BD000A8FEE /* WQPChartView */ = {
+			isa = PBXGroup;
+			children = (
+				7E7F5FDE1CFBF2E2000A8FEE /* UIBezierPath+curved.h */,
+				7E7F5FDF1CFBF2E2000A8FEE /* UIBezierPath+curved.m */,
+				7E7F5FE01CFBF2E2000A8FEE /* WQPChart.h */,
+				7E7F5FE11CFBF2E2000A8FEE /* WQPChart.m */,
+				7E7F5FE21CFBF2E2000A8FEE /* WQPChartAll.h */,
+				7E7F5FE31CFBF2E2000A8FEE /* WQPChartAll.m */,
+				7E7F5FE41CFBF2E2000A8FEE /* WQPChartBar.h */,
+				7E7F5FE51CFBF2E2000A8FEE /* WQPChartBar.m */,
+				7E7F5FE61CFBF2E2000A8FEE /* WQPChartLine.h */,
+				7E7F5FE71CFBF2E2000A8FEE /* WQPChartLine.m */,
+			);
+			name = WQPChartView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E7F5FA61CFBF270000A8FEE /* WQPChartDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7F5FD41CFBF270000A8FEE /* Build configuration list for PBXNativeTarget "WQPChartDemo" */;
+			buildPhases = (
+				7E7F5FA31CFBF270000A8FEE /* Sources */,
+				7E7F5FA41CFBF270000A8FEE /* Frameworks */,
+				7E7F5FA51CFBF270000A8FEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WQPChartDemo;
+			productName = WQPChartDemo;
+			productReference = 7E7F5FA71CFBF270000A8FEE /* WQPChartDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E7F5FBF1CFBF270000A8FEE /* WQPChartDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7F5FD71CFBF270000A8FEE /* Build configuration list for PBXNativeTarget "WQPChartDemoTests" */;
+			buildPhases = (
+				7E7F5FBC1CFBF270000A8FEE /* Sources */,
+				7E7F5FBD1CFBF270000A8FEE /* Frameworks */,
+				7E7F5FBE1CFBF270000A8FEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7F5FC21CFBF270000A8FEE /* PBXTargetDependency */,
+			);
+			name = WQPChartDemoTests;
+			productName = WQPChartDemoTests;
+			productReference = 7E7F5FC01CFBF270000A8FEE /* WQPChartDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E7F5FCA1CFBF270000A8FEE /* WQPChartDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7F5FDA1CFBF270000A8FEE /* Build configuration list for PBXNativeTarget "WQPChartDemoUITests" */;
+			buildPhases = (
+				7E7F5FC71CFBF270000A8FEE /* Sources */,
+				7E7F5FC81CFBF270000A8FEE /* Frameworks */,
+				7E7F5FC91CFBF270000A8FEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7F5FCD1CFBF270000A8FEE /* PBXTargetDependency */,
+			);
+			name = WQPChartDemoUITests;
+			productName = WQPChartDemoUITests;
+			productReference = 7E7F5FCB1CFBF270000A8FEE /* WQPChartDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E7F5F9F1CFBF270000A8FEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wqp;
+				TargetAttributes = {
+					7E7F5FA61CFBF270000A8FEE = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					7E7F5FBF1CFBF270000A8FEE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7E7F5FA61CFBF270000A8FEE;
+					};
+					7E7F5FCA1CFBF270000A8FEE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7E7F5FA61CFBF270000A8FEE;
+					};
+				};
+			};
+			buildConfigurationList = 7E7F5FA21CFBF270000A8FEE /* Build configuration list for PBXProject "WQPChartDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E7F5F9E1CFBF270000A8FEE;
+			productRefGroup = 7E7F5FA81CFBF270000A8FEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E7F5FA61CFBF270000A8FEE /* WQPChartDemo */,
+				7E7F5FBF1CFBF270000A8FEE /* WQPChartDemoTests */,
+				7E7F5FCA1CFBF270000A8FEE /* WQPChartDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E7F5FA51CFBF270000A8FEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7F5FBA1CFBF270000A8FEE /* LaunchScreen.storyboard in Resources */,
+				7E7F5FB71CFBF270000A8FEE /* Assets.xcassets in Resources */,
+				7E7F5FB51CFBF270000A8FEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7F5FBE1CFBF270000A8FEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7F5FC91CFBF270000A8FEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E7F5FA31CFBF270000A8FEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7F5FE91CFBF2E2000A8FEE /* WQPChart.m in Sources */,
+				7E7F5FE81CFBF2E2000A8FEE /* UIBezierPath+curved.m in Sources */,
+				7E7F5FB21CFBF270000A8FEE /* ViewController.m in Sources */,
+				7E7F5FEC1CFBF2E2000A8FEE /* WQPChartLine.m in Sources */,
+				7E7F5FAF1CFBF270000A8FEE /* AppDelegate.m in Sources */,
+				7E7F5FAC1CFBF270000A8FEE /* main.m in Sources */,
+				7E7F5FEB1CFBF2E2000A8FEE /* WQPChartBar.m in Sources */,
+				7E7F5FEA1CFBF2E2000A8FEE /* WQPChartAll.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7F5FBC1CFBF270000A8FEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7F5FC51CFBF270000A8FEE /* WQPChartDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7F5FC71CFBF270000A8FEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7F5FD01CFBF270000A8FEE /* WQPChartDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E7F5FC21CFBF270000A8FEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E7F5FA61CFBF270000A8FEE /* WQPChartDemo */;
+			targetProxy = 7E7F5FC11CFBF270000A8FEE /* PBXContainerItemProxy */;
+		};
+		7E7F5FCD1CFBF270000A8FEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E7F5FA61CFBF270000A8FEE /* WQPChartDemo */;
+			targetProxy = 7E7F5FCC1CFBF270000A8FEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E7F5FB31CFBF270000A8FEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E7F5FB41CFBF270000A8FEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E7F5FB81CFBF270000A8FEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E7F5FB91CFBF270000A8FEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E7F5FD21CFBF270000A8FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E7F5FD31CFBF270000A8FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E7F5FD51CFBF270000A8FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WQPChartDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wqp.com.WQPChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E7F5FD61CFBF270000A8FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WQPChartDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wqp.com.WQPChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E7F5FD81CFBF270000A8FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WQPChartDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wqp.com.WQPChartDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WQPChartDemo.app/WQPChartDemo";
+			};
+			name = Debug;
+		};
+		7E7F5FD91CFBF270000A8FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WQPChartDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wqp.com.WQPChartDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WQPChartDemo.app/WQPChartDemo";
+			};
+			name = Release;
+		};
+		7E7F5FDB1CFBF270000A8FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WQPChartDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wqp.com.WQPChartDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WQPChartDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7E7F5FDC1CFBF270000A8FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WQPChartDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wqp.com.WQPChartDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WQPChartDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E7F5FA21CFBF270000A8FEE /* Build configuration list for PBXProject "WQPChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7F5FD21CFBF270000A8FEE /* Debug */,
+				7E7F5FD31CFBF270000A8FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7F5FD41CFBF270000A8FEE /* Build configuration list for PBXNativeTarget "WQPChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7F5FD51CFBF270000A8FEE /* Debug */,
+				7E7F5FD61CFBF270000A8FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E7F5FD71CFBF270000A8FEE /* Build configuration list for PBXNativeTarget "WQPChartDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7F5FD81CFBF270000A8FEE /* Debug */,
+				7E7F5FD91CFBF270000A8FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E7F5FDA1CFBF270000A8FEE /* Build configuration list for PBXNativeTarget "WQPChartDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7F5FDB1CFBF270000A8FEE /* Debug */,
+				7E7F5FDC1CFBF270000A8FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E7F5F9F1CFBF270000A8FEE /* Project object */;
+}
