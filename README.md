@@ -20,4 +20,12 @@
 这个类只提供折线图.
 
 ##Running effect
+###WQPChartBar run effect
 ![](http://img0.ph.126.net/HMA-G1Wh-qX4DtDjBGoY5w==/6631705482442625997.jpeg)
+###WQPChartAll run effect
+![](http://img2.ph.126.net/kqoxFr6Ez1QeSSns6c84ZQ==/3757690939188040769.jpeg)
+###WQPChartLine run effect
+![](http://img0.ph.126.net/HMA-G1Wh-qX4DtDjBGoY5w==/6631705482442625997.jpeg)
+
+##Thanks
+在此感谢大家的支持.
