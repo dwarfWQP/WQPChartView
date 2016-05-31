@@ -1,4 +1,4 @@
-# WQPChartView
+# WQPChartView  (建议线条采用直线)
 这是基于SNChartView,自己进一步进行整合并且完善的quartz2D,即柱状折线图,希望大家支持.
 =======
 #The premise
